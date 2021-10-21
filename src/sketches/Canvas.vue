@@ -3,13 +3,13 @@
 </template>
 
 <script>
+import {Spiral} from "@/sketches/Spiral";
 const P5 = require("p5");
-import {spiral} from '~@/sketches/Spiral';
 
 export default {
   name: "App",
   mounted() {
-    new P5(spiral);
+    new P5(Spiral);
   },
 };
 </script>

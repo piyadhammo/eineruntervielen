@@ -1,6 +1,4 @@
-const P5 = require("p5");
-
-export default function (p5) {
+export function Spiral(p5) {
     let a = 0;
     let b = 10;
     let points = [];
@@ -38,4 +36,4 @@ export default function (p5) {
         p5.endShape();
         points = [];
     };
-};
+}
