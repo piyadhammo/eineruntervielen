@@ -1,20 +1,20 @@
 <template>
   <div id="app">
-    <CanvasWelcome/>
+    <Canvas/>
     <Welcome/>
     <MainLogo/>
   </div>
 </template>
 
 <script>
-import CanvasWelcome from '@/components/Welcome/CanvasWelcome.vue'
+import Canvas from '@/sketches/Canvas.vue'
 import Welcome from '@/components/Welcome/Welcome.vue'
 import MainLogo from '@/components/MainLogo.vue'
 
 export default {
   name: 'App',
   components: {
-    CanvasWelcome,
+    Canvas,
     Welcome,
     MainLogo
   }
