@@ -1,22 +1,20 @@
 <template>
   <div id="app">
-    <Canvas/>
-    <Welcome/>
     <MainLogo/>
+    <Navigation/>
+    <router-view/>
   </div>
 </template>
 
 <script>
-import Canvas from '@/sketches/Canvas.vue'
-import Welcome from '@/components/Welcome.vue'
 import MainLogo from '@/components/MainLogo.vue'
+import Navigation from "@/components/Navigation";
 
 export default {
   name: 'App',
   components: {
-    Canvas,
-    Welcome,
-    MainLogo
+    MainLogo,
+    Navigation
   }
 }
 </script>
@@ -29,5 +27,4 @@ export default {
   margin: 0;
   padding: 0;
 }
-
 </style>

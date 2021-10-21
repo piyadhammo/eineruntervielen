@@ -15,6 +15,20 @@
     </div>
 </template>
 
+
+<script>
+import {Spiral} from "@/sketches/Spiral";
+const P5 = require("p5");
+
+export default {
+  name: "Welcome",
+  mounted() {
+    new P5(Spiral);
+  }
+};
+</script>
+
+
 <style scoped>
 #welcome {
     padding: 0;

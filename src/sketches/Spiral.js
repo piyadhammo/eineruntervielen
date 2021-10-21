@@ -18,9 +18,7 @@ export function Spiral(p5) {
         p5.translate((p5.windowWidth * 3) / 4, (p5.windowHeight * 3) / 4);
         for (let t = 0; t < T; t++) {
             let i = t * 0.3;
-            p5.append(
-                points,
-                p5.createVector(
+            p5.append(points, p5.createVector(
                     (a + b * i) * p5.cos(i + p5.random(0, randX)),
                     (a + b * i) * p5.sin(i + p5.random(0, randY))
                 )

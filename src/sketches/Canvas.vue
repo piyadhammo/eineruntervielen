@@ -10,7 +10,7 @@ export default {
   name: "App",
   mounted() {
     new P5(Spiral);
-  },
+  }
 };
 </script>
 
