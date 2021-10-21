@@ -8,7 +8,7 @@
 
 <script>
 import Canvas from '@/sketches/Canvas.vue'
-import Welcome from '@/components/Welcome/Welcome.vue'
+import Welcome from '@/components/Welcome.vue'
 import MainLogo from '@/components/MainLogo.vue'
 
 export default {
