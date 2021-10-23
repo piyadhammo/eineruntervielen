@@ -25,7 +25,7 @@ export function Spiral(p5) {
             );
         }
         p5.noFill();
-        p5.strokeWeight(1);
+        p5.strokeWeight(2);
         p5.stroke(27);
         p5.beginShape();
         for (let j = 0; j < T; j++) {

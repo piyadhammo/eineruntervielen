@@ -27,4 +27,11 @@ export default {
   margin: 0;
   padding: 0;
 }
+
+p {
+  font-size: 15pt;
+  margin-left: 2vw;
+  max-width: 66vw;
+  color: rgb(150, 150, 150);
+}
 </style>
