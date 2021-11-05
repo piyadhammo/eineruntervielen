@@ -1,22 +1,23 @@
 <template>
   <div id="cv">
     <h2>Akademische Werdegang</h2>
-    <ol>
+    <ul>
       <li>Masterstudium Mathematik an der Ostbayerischen Technischen Hochschule Regensburg</li>
       <li>Bachelorstudium Mathematik an der Ostbayerischen Technischen Hochschule Regensburg</li>
       <li>Fachhochschulreife an der Staatlichen Berufsoberschule Nürnberg</li>
       <li>Mittlere Reife an der Wirtschaftschule im Röthelheimpark Erlangen</li>
       <li>Hauptschule Ernst-Penzoldt Erlangen</li>
       <li>Grundschule Adalbert-Stifter Erlangen</li>
-    </ol>
+    </ul>
     <br>
     <h2>Berufliche Werdegang</h2>
-    <ol>
-      <li>Operativer Leiter des Bereichs Mathematische Modellierung und Optimierung bei der <a href="https://www.optware.de">OptWare GmbH</a> Regensburg</li>
+    <ul>
+      <li>Lehrbeauftragter für Mathematik 1 und 2 an der Ostbayerischen Technischen Hochschule Regensburg</li>
+      <li>Operativer Leiter des Bereichs Mathematische Modellierung und Optimierung bei der OptWare GmbH Regensburg</li>
       <li>Software-Entwickler und Modellierer bei der OptWare GmbH Regensburg</li>
       <li>Tutor für Lineare Algebra 1 und 2 sowie für Mathematische Software 1 an der Ostbayerischen Technischen Hochschule Regensburg</li>
       <li>Ausbildung zum Kaufmann für Bürokommunikation bei der LN-Möbelhandels GmbH Hirschaid</li>
-    </ol>
+    </ul>
   </div>
 </template>
 
